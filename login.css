@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px 8px;
+    background-image: url(./afrika.jpg);
+    background-size: cover;
+}
+.container {
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+#forgotPasswordLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#forgotPasswordLink:hover {
+    text-decoration: underline;
+    color:lightblue;
+}
+input[type="button"]:hover {
+    background-color: green;
+    color: white;
+}
+input [type="button"] {
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+p {
+    text-align: center;
+    margin-top: 10px;
+}
